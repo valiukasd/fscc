@@ -1,6 +1,6 @@
 # FSCC task
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app). It features NativeWind for web-like styling and Jotai for atomic state management. It implements a simple login flow with reusable Button and Input components. The button features variants that you can pass as props, so we could implement a desctructive (red) button for example. The app handles the authentication with a [CRUD http API](https://mockapi.io/clone/66bca4db24da2de7ff6b5a06) and saves the token using the React Native AsyncStorage API.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app). It features NativeWind for web-like styling and Jotai for atomic state management. It implements a simple login flow with reusable Button and Input components. The button features variants that you can pass as props, so we could implement a desctructive (red) button for example. The app handles the authentication with a [CRUD http API](https://mockapi.io/clone/66bca4db24da2de7ff6b5a06) and saves the token using the React Native AsyncStorage API. There is a known bug with the secureTextEntry prop. I did not allocate resources to fix it, but we could implement a custom solution for password hiding and showing.
 
 ## Get started
 
