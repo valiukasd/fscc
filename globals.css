@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 225 44% 15%;
+    --primary: 218 79% 53%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 208 8% 51%;
+    --destructive: 0 84.2% 60.2%;
+    --input: 217 16% 84%;
+  }
+}
